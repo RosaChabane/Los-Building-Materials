@@ -1,0 +1,28 @@
+.masthead {
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    font-weight: bold;
+}
+
+.masthead h1 {
+    font-weight: bold;
+    border-bottom: 1px solid rgb(139, 133, 133);
+}
+
+.masthead button {
+    font-weight: bold;
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    height: 300px;
+    width: 100%;
+}
