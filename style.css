@@ -22,7 +22,58 @@
     height: 100%;
 }
 
+.about-section {
+    background-color: rgb(224, 224, 224);
+    font-weight: 500;
+}
+
+.about-section .lead {
+    font-weight: 400;
+}
+
 iframe {
     height: 300px;
     width: 100%;
+}
+
+.contact-md-7 {
+    padding: 20px;
+}
+
+.contact-md-5 {
+    background: #1089ff;
+    padding: 20px;
+    color: white;
+}
+
+.form-control {
+    height: 52px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact-info bi {
+    font-size: 20px;
+}
+
+.d-flex p {
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.mb-3 label {
+    font-weight: 500;
+}
+
+@media only screen and (max-width:600px){
+    .contact-us-submit-button{
+        margin-bottom: 15px;
+    }
+    .d-flex p {
+        font-size: 15px;
+    }
 }
