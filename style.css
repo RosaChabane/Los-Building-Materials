@@ -69,6 +69,25 @@ iframe {
     font-weight: 500;
 }
 
+.carousel-item {
+    min-height: 70vh;
+    background: gray;
+    position: relative;
+    top: 0;
+    background-size: cover; 
+}
+
+.carousel-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+}
+
+.carousel-indicators {
+    list-style: none;
+}
+
 @media only screen and (max-width:600px){
     .contact-us-submit-button{
         margin-bottom: 15px;
