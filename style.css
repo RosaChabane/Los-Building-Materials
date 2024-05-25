@@ -22,12 +22,12 @@
     height: 100%;
 }
 
-.about-section {
+.about-section-index {
     background-color: rgb(224, 224, 224);
     font-weight: 500;
 }
 
-.about-section .lead {
+.about-section-index .lead {
     font-weight: 400;
 }
 
@@ -74,7 +74,9 @@ iframe {
     background: gray;
     position: relative;
     top: 0;
-    background-size: cover; 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .carousel-container {
@@ -88,11 +90,20 @@ iframe {
     list-style: none;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:600px) {
     .contact-us-submit-button{
         margin-bottom: 15px;
     }
     .d-flex p {
         font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:1160px){
+    .about-section {
+        height: 700px;
+    }
+    .about-section-pad {
+        padding: 3%;
     }
 }
