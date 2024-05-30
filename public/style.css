@@ -1,3 +1,5 @@
+/* BANNER SECTION */
+
 .masthead {
     background-size: cover;
     min-height: 70vh;
@@ -22,6 +24,8 @@
     height: 100%;
 }
 
+/* ABOUT US SECTION */
+
 .about-section-index {
     background-color: rgb(224, 224, 224);
     font-weight: 500;
@@ -35,6 +39,8 @@ iframe {
     height: 300px;
     width: 100%;
 }
+
+/* CONTACT US SECTION */
 
 .contact-md-7 {
     padding: 20px;
@@ -69,6 +75,8 @@ iframe {
     font-weight: 500;
 }
 
+/* SERVICES PAGE */
+
 .carousel-item {
     min-height: 70vh;
     background: gray;
@@ -90,10 +98,30 @@ iframe {
     list-style: none;
 }
 
-.thanks-container {
-    background-color: rgba(57, 197, 139, 0.8);
-    font-weight: bold;
+/* STICKY CALL BUTTON */
+
+.fixed-tel {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(53, 134, 255);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    z-index: 1000; 
 }
+  
+.fixed-tel:hover {
+    background-color: rgba(13, 110, 253, 1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* MEDIA QUERIES */
 
 @media only screen and (max-width:600px) {
     .contact-us-submit-button{
@@ -101,6 +129,9 @@ iframe {
     }
     .d-flex p {
         font-size: 15px;
+    }
+    .fixed-tel {
+        display: block; 
     }
 }
 
