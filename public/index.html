@@ -51,7 +51,7 @@
 
     <!-- Banner -->
 
-    <section class="bg-dark text-light text-center masthead" style="background-image: url('/img/truck-final.jpeg'), linear-gradient(rgba(148, 142, 142, 0.8),rgba(247, 246, 246, 0.5)); background-blend-mode: overlay;">
+    <section class="bg-dark text-light text-center masthead" style="background-image: url('img/truck-final.jpeg'), linear-gradient(rgba(148, 142, 142, 0.8),rgba(247, 246, 246, 0.5)); background-blend-mode: overlay;">
         <div class="container masthead">
             <div>
                 <div class="color-overlay d-flex justify-content-center flex-column align-items-center">
@@ -157,44 +157,46 @@
             <div class="row contact-row">
                 <div class="col-md-7 contact-col-md-7">
                   <h4 class="border-bottom p-2">Get In Touch</h4>
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="contact-name" placeholder="Enter your name">
-                      </div>
-                      <div class="mb-3">
-                        <label for="formGroupExampleInput2" class="form-label">Email</label>
-                        <input type="text" class="form-control" id="contact-email" placeholder="Enter your email">
-                      </div>
-                      <div class="mb-3">
-                        <label for="formGroupExampleInput2" class="form-label">Contact Number</label>
-                        <input type="text" class="form-control" id="contact-number" placeholder="Enter your number">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control" id="contact-message" rows="3"></textarea>
-                      </div>
-                      <button class="btn btn-primary contact-us-submit-button">Submit</button>
+                    <form action="https://formsubmit.co/losbuildingmaterials.com@yahoo.com" method="POST">
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control" id="contact-name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">Email</label>
+                            <input type="text" name="email" class="form-control" id="contact-email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">Contact Number</label>
+                            <input type="text" name="number" class="form-control" id="contact-number" placeholder="Enter your number">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" name="message" id="contact-message" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-primary contact-us-submit-button">Submit</button>
+                    </form>
                 </div>
                 <div class="col-md-5 contact-col-md-5 contact-info">
-                  <h4>Contact Us</h4><hr>
-                  <div class="mt-4">
-                      <div class="d-flex">
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <p>Address: 5610 Creekmont Dr Houston, Tx 77091</p>
-                      </div><hr>
-                      <div class="d-flex">
-                        <a href="tel: 832-918-8151"><i class="bi bi-telephone-fill"></i></a>
-                        <p>Contact : 832-918-8151</p>
-                      </div><hr>
-                      <div class="d-flex">
-                        <i class="bi bi-envelope-fill"></i>
-                        <p>Email: Losbuildingmaterials@gmail.com</p>
-                      </div><hr>
-                      <div class="d-flex">
-                        <i class="bi bi-browser-chrome"></i>
-                        <p>Website: www.losbuildingmaterials.com</p>
-                      </div><hr>
-                  </div>
+                    <h4>Contact Us</h4><hr>
+                    <div class="mt-4">
+                        <div class="d-flex">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <p>Address: 5610 Creekmont Dr Houston, Tx 77091</p>
+                        </div><hr>
+                        <div class="d-flex">
+                            <a href="tel: 832-918-8151"><i class="bi bi-telephone-fill"></i></a>
+                            <p>Contact : 832-918-8151</p>
+                        </div><hr>
+                        <div class="d-flex contact-us-email">
+                            <i class="bi bi-envelope-fill"></i>
+                            <p>Email: Losbuildingmaterials@gmail.com</p>
+                        </div><hr>
+                        <div class="d-flex">
+                            <i class="bi bi-browser-chrome"></i>
+                            <p>Website: www.losbuildingmaterials.com</p>
+                        </div><hr>
+                    </div>
                 </div>
             </div>
         </div>

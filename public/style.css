@@ -90,6 +90,11 @@ iframe {
     list-style: none;
 }
 
+.thanks-container {
+    background-color: rgba(57, 197, 139, 0.8);
+    font-weight: bold;
+}
+
 @media only screen and (max-width:600px) {
     .contact-us-submit-button{
         margin-bottom: 15px;
@@ -99,11 +104,24 @@ iframe {
     }
 }
 
+@media only screen and (max-width:991px) {
+    .contact-us-email p{
+        font-size: 17px;
+        overflow: hidden;
+    }
+    .contact-us-submit-button{
+        margin-bottom: 15px;
+    }
+}
+
 @media only screen and (min-width:1160px){
     .about-section {
         height: 700px;
     }
     .about-section-pad {
         padding: 3%;
+    }
+    .contact-us-submit-button{
+        margin-bottom: 15px;
     }
 }
